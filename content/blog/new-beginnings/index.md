@@ -27,6 +27,29 @@ view back on the skyline of her hometown _Bookmarksgrove_, the headline of
 Lane. Pityful a rhetoric question ran over her cheek, then she continued her
 way. On her way she met a copy.
 
+```jsx
+// src/app/RegistrationForm.jsx
+import React from 'react'
+import { Form } from 'react-advanced-form'
+import { Input } from '...'
+
+export default class RegistrationForm extends React.Component {
+  render() {
+    return (
+      <Form>
+        <Input name="userEmail" type="email" required />
+        <Input name="userPassword" type="password" required />
+        <Input name="confirmPassword" type="password" required />
+        <Input name="firstName" />
+        <Input name="lastName" />
+
+        <button>Register</button>
+      </Form>
+    )
+  }
+}
+```
+
 ### Overlaid the jeepers uselessly much excluding
 
 But nothing the copy said could convince her and so it didn’t take long until a
@@ -106,3 +129,5 @@ to its own, safe country. But nothing the copy said could convince her and so it
 didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
 with Longe and Parole and dragged her into their agency, where they abused her
 for their projects again and again.
+
+
