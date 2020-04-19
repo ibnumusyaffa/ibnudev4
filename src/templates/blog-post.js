@@ -48,32 +48,30 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </footer>
       </article>
 
-      <nav>
-        <ul
+      <nav style={{ marginBottom: 50, marginTop: 30 }}>
+        <div
           style={{
             display: `flex`,
-            flexWrap: `wrap`,
-            marginTop:50,
             justifyContent: `space-between`,
             listStyle: `none`,
             padding: 0,
           }}
         >
-          <li>
+          <div>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
-                ← Artikel sebelumnya
+                ← Sebelumnya
               </Link>
             )}
-          </li>
-          <li>
+          </div>
+          <div>
             {next && (
               <Link to={next.fields.slug} rel="next">
-                Artikel selanjutnya →
+                Selanjutnya →
               </Link>
             )}
-          </li>
-        </ul>
+          </div>
+        </div>
       </nav>
     </Layout>
   )

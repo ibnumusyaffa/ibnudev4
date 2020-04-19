@@ -3,7 +3,7 @@ module.exports = {
     title: `Ibnu Musyaffa`,
     author: {
       name: `Ibnu Musyaffa`,
-      summary: `Software Developer berdomisili di Jabodetabek, sering coding di bahasa php, javascript, dan golang`,
+      summary: `Generalis software developer`,
     },
     description: `Personal blog tentang programming`,
     siteUrl: `https://ibnu.dev/`,
